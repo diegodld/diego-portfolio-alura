@@ -4,6 +4,7 @@
 
 body {
   background-color: black;
+  font-family: 'Inter',sans-serif;
 }
 
 .container {
@@ -28,6 +29,7 @@ body {
 p {
   color: #f6f6f6;
   text-align: justify;
+  font-size: 18px;
 }
 
 .links {
@@ -49,7 +51,7 @@ p {
 }
 
 img {
-  width: 300px;
+  width: 350px;
   border: 1px solid var(--light-blue);
   border-radius: 16px;
   margin: 8px;
