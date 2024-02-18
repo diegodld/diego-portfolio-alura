@@ -2,6 +2,11 @@
   --light-blue: #22d4fd;
 }
 
+*{
+    margin:0;
+    padding: 0;
+}
+
 body {
   background-color: black;
   font-family: 'Inter',sans-serif;
@@ -16,6 +21,7 @@ body {
 
 .title {
   color: #f6f6f6;
+  margin-bottom: 32px;
 }
 
 .title strong {
@@ -30,6 +36,7 @@ p {
   color: #f6f6f6;
   text-align: justify;
   font-size: 18px;
+  margin-bottom: 32px;
 }
 
 .links {
