@@ -1,0 +1,56 @@
+:root {
+  --light-blue: #22d4fd;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  color: #f6f6f6;
+}
+
+.title strong {
+  color: var(--light-blue);
+}
+
+.content {
+  max-width: 500px;
+}
+
+p {
+  color: #f6f6f6;
+  text-align: justify;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  background-color: var(--light-blue);
+  border-radius: 16px;
+  width: 242px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+  border: 1px solid var(--light-blue);
+  border-radius: 16px;
+  margin: 8px;
+}
